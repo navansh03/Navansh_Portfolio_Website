@@ -1,5 +1,4 @@
 import {Header} from "@/sections/Header";
-import { AppProps } from "next/app";
 import Head from 'next/head';
 import { HeroSection } from "@/sections/Hero";
 import { ProjectsSection } from "@/sections/Projects";
