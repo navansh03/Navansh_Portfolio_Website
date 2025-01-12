@@ -35,7 +35,7 @@ export const Footer = () => {
                 key={link.title}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-white/70 hover:text-white/90 z-20"
+                className="inline-flex items-center gap-1.5"
                 aria-label={`Visit ${link.title}`}  
               >
                 <span className="font-semibold">{link.title}</span>

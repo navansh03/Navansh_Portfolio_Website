@@ -9,7 +9,7 @@ import {ContactSection} from "@/sections/Contact";
 import {Footer} from "@/sections/Footer";
 import favicon from "@/app/favicon.ico";
 
-export default function Home({}:AppProps)  {
+export default function Home()  {
   return (
     <div>
       <Head>
@@ -26,6 +26,9 @@ export default function Home({}:AppProps)  {
       </section>
       <section id="about">
         <AboutSection />
+      </section>
+      <section id="tape">
+        <TapeSection />
       </section>
       <section id="resume">
         <ContactSection />
