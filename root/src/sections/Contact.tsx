@@ -17,15 +17,21 @@ export const ContactSection = () => {
                 Let&apos;s Create something amazing together
               </h2>
               <p className="text-sm mt-2 md:text-base">
-                Ready to bring your next project to life? Let&apos;s connect and
-                discuss how can I help you achieve your goals.
+                Explore my resume to discover how my skills and experiences
+                align with your goals.
               </p>
             </div>
             <div>
-              <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
-                <span className="font-semibold">Contact Me</span>
-                <ArrowUpRightIcon className="size-4" />
-              </button>
+              <a
+                href="/Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900">
+                  <span className="font-semibold">Resume</span>
+                  <ArrowUpRightIcon className="size-4" />
+                </button>
+              </a>
             </div>
           </div>
         </div>
