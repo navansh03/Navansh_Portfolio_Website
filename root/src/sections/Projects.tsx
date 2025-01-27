@@ -1,4 +1,5 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import froshwebsite from "@/assets/images/Frosh_website.jpg";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
@@ -8,16 +9,16 @@ import grainImage from "@/assets/images/grain.jpg";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Frosh'23",
+    year: "2023",
+    title: "Frosh'23 Website",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "{froshtiet.com} is the primary information hub for frosh events" },
+      { title: "This comprehensive system offers a user-friendly interface." },
+      { title: "secure access control for a seamless event experience." },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://frosh-tiet.github.io/Frosh_FrontEnd/",
+    image: froshwebsite,
   },
   {
     company: "Innovative Co",
