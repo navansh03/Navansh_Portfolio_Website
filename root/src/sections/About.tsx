@@ -10,7 +10,8 @@ import CssIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
-import mapImage from "@/assets/images/map.png";
+import djangoIcon from "@/assets/icons/django.svg";
+import mapImage from "@/assets/images/map2.jpg";
 import memoji_computer from "@/assets/images/memoji-computer.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolBoxItems";
@@ -23,7 +24,7 @@ const toolboxItems = [
   },
   {
     title: "HTML5",
-    iconType: HtmlIcon,
+    iconType: djangoIcon,
   },
   {
     title: "CSS3",

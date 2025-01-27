@@ -6,7 +6,7 @@ import { TapeSection } from "@/sections/Tape";
 import {AboutSection} from "@/sections/About"; 
 import {ContactSection} from "@/sections/Contact"; 
 import {Footer} from "@/sections/Footer";
-import favicon from "@/app/favicon.ico";
+// import favicon from "@/app/favicon.ico";
 
 export default function Home()  {
   return (
@@ -14,7 +14,7 @@ export default function Home()  {
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="Portfolio" />
-        <link rel="icon" href={favicon.src} /> 
+        {/* <link rel="icon" href={favicon.src} />  */}
       </Head>
       <Header />
       <section id="home">
