@@ -134,12 +134,13 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experience
+            Solve. Build. Scale.
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            turning ideas into functionals,high performing web applications. I
-            specialize in building web applications with Django and ML/DL
-            Models. Lets Discuss your next Project.
+            I’m a backend-focused full-stack developer who enjoys designing
+            clean APIs, scalable systems, and real-world products. I’ve built
+            production-ready platforms using ReactJS/NextJS ,NestJS, Go, Django, Redis, Docker,
+            and integrated AI/ML features where they actually add value.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -149,12 +150,11 @@ export const HeroSection = () => {
           </button>
           <a
             href="mailto:navanshgoswami4@gmail.com"
-            className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10" 
+            className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl z-10"
           >
             <span>👋</span>
             <span className="font-semibold">Lets Connect</span>
           </a>
-
         </div>
       </div>
     </div>

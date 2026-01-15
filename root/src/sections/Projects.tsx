@@ -1,4 +1,3 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import froshwebsite from "@/assets/images/Frosh_website.jpg";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
@@ -6,14 +5,28 @@ import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
+import Toonie from "@/assets/images/Toonie.png";
 
 const portfolioProjects = [
   {
-    company: "Frosh'23",
-    year: "2023",
-    title: "Frosh'23 Website",
+    company: "ReactJS, Nestjs, Gemini, p5.js",
+    year: "2025",
+    title: "Toonie: AI 2D Animation Tool",
     results: [
-      { title: "{froshtiet.com} is the primary information hub for frosh events" },
+      { title: `A full-stack AI animation platform that converts text prompts into runnable p5.js sketches with real-time
+editing tools.` },
+      { title: "Designed refine–chat LLM workflow reducing manual animation boilerplate by ˜80%." },
+      { title: "Implemented a timeline-based composer with drag/drop multi-clip editing, 60fps preview, and WebM export." },
+    ],
+    link: "https://toonie-five.vercel.app/",
+    image: Toonie ,
+  },
+  {
+    company: "ReactJS, Firebase, Django REST, Docker, Kubernetes",
+    year: "2024",
+    title: "Frosh'24 Website",
+    results: [
+      { title: `{froshtiet.in} is the primary inforxmation hub for frosh events` },
       { title: "This comprehensive system offers a user-friendly interface." },
       { title: "secure access control for a seamless event experience." },
     ],
@@ -32,18 +45,30 @@ const portfolioProjects = [
     link: "https://youtu.be/7hi5zwO75yc",
     image: lightSaasLandingPage,
   },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
-  },
+  // {
+  //   company: "Quantum Dynamics",
+  //   year: "2023",
+  //   title: "AI Startup Landing Page",
+  //   results: [
+  //     { title: "Enhanced user experience by 40%" },
+  //     { title: "Improved site speed by 50%" },
+  //     { title: "Increased mobile traffic by 35%" },
+  //   ],
+  //   link: "https://youtu.be/Z7I5uSRHMHg",
+  //   image: aiStartupLandingPage,
+  // },
+  // {
+  //   company: "Quantum Dynamics",
+  //   year: "2023",
+  //   title: "AI Startup Landing Page",
+  //   results: [
+  //     { title: "Enhanced user experience by 40%" },
+  //     { title: "Improved site speed by 50%" },
+  //     { title: "Increased mobile traffic by 35%" },
+  //   ],
+  //   link: "https://youtu.be/Z7I5uSRHMHg",
+  //   image: aiStartupLandingPage,
+  // },
 ];
 
 export const ProjectsSection = () => {
